@@ -22,4 +22,4 @@ def read_txt_file(file_path: str, delimiter: str = '\t') -> pd.DataFrame:
     
     
  def stock_dataset():
-        pass
+        Fail
