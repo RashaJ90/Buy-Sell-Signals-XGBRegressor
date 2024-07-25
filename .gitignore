@@ -1,5 +1,74 @@
 # Project data directories
 /data/
-/src/models/
+/models/
 /runs/
 /results/
+
+# Projects Files
+/template.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.py[cod]
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Translations
+*.mo
+*.pot
+
+# C extensions
+*.so
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Session.vim
+Sessionx.vim
+
+# VSCode IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/cspell.json
+
+# Profile files
+*.prof
+
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints
+!notebooks/*.Rmd

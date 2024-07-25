@@ -1,0 +1,34 @@
+name: Investor
+channels:
+  - numba
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - cvxpy
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - ipywidgets
+  - xgboost
+  - lightgbm
+  - catboost
+  - autograd
+  - tensorboard
+  - matplotlib
+  - seaborn
+  - skorch
+  - bokeh
+  - plotly
+  - umap-learn
+  - scikit-image
+  - opencv
+  - numba
+  - graphviz
+  - pydot
+  - distinctipy
+  - gdown
+  - pip:
+    - opencv-python
