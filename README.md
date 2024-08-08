@@ -11,6 +11,16 @@ Predicting buy and sell signals in financial markets is essential for informed t
 * Walk Forward cross-validation using sktime.SlidingWindowSplitter.
 * Results evaluation using Sharpe Ratio, Maximum Drawdown (MDD), and Treynor Ratio.
 
+## Features:
+* ATR: Average True Range
+* Bollinger Band
+* EMA: Exponential Moving Average
+* MACD: Moving Average Convergence Divergence
+* DMI: Directional Movement Index
+* STOCH: Stochastic Oscillator
+* RSI: Relative Strength Index
+* Williams %R
+
 ## Environment Setup
 
 I am using Micromamba, here's the installation link - https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
