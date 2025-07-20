@@ -3,40 +3,51 @@
 /models/
 /runs/
 /results/
+/notebooks/
 
-# Projects Files
-/template.py
+# Model files
+*.pt
+*.onnx
+
+# Environment variables
+.venv
+.venv.*
+!.venv.example
+
+# Log files
+/logs/
+*.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
-*.py[cod]
 
-# Environments
-.env
+# Virtualenv
+.Python
+/[Bb]in
+/[Ee]tc
+/[Ii]nclude
+/[Ll]ib
+/[Ll]ib64
+/[Ll]ocal
+/[Ss]cripts
+/[Ss]hare
+pyvenv.cfg
 .venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+venv
+pip-selfcheck.json
 
-# System Files
-.DS_Store
-Thumbs.db
-
-# Translations
-*.mo
-*.pot
+# Packaging
+.pypirc
+*.egg-info/
+dist/
 
 # C extensions
 *.so
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+# System Files
+.DS_Store
+Thumbs.db
 
 # Unit test / coverage reports
 htmlcov/
@@ -47,6 +58,15 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
+# Translations
+*.mo
+*.pot
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
 # Editor directories and files
 .idea
 *.suo
@@ -56,6 +76,7 @@ coverage.xml
 *.sw?
 Session.vim
 Sessionx.vim
+*~
 
 # VSCode IDE
 .vscode/*
@@ -69,6 +90,7 @@ Sessionx.vim
 *.prof
 
 # Jupyter Notebooks
-*.ipynb
 .ipynb_checkpoints
-!notebooks/*.Rmd
+
+# Vagrant
+.vagrant
